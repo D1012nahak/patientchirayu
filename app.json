@@ -1,0 +1,35 @@
+{
+	"expo": {
+		"name": "Chirayu Bharat",
+		"slug": "chirayubharat_patient",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./app/assets/images/icon.png",
+		"splash": {
+			"image": "./app/assets/images/splash.png",
+			"resizeMode": "cover",
+			"backgroundColor": "#FFFFFF"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./app/assets/images/icon.png",
+				"backgroundColor": "#FFFFFF"
+			}
+		},
+		"androidStatusBar": {
+			"backgroundColor": "#1428A0",
+			"barStyle": "light-content",
+			"translucent": false
+		},
+		"web": {
+			"favicon": "./app/assets/images/favicon.png"
+		}
+	}
+}
